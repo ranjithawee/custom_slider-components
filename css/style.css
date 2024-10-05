@@ -1,0 +1,66 @@
+
+.custom_prev, .custom_next {
+    top: 88%;
+    width: 5%;
+
+}
+.custom_prev{
+    left: 85%;
+}
+.custom_next{
+    right: 3%;
+}
+.h_text{
+    font-size: 3rem;
+}
+.c_text{
+    font-size: 1.25rem;
+}
+
+
+/* banner start */
+
+.banner{
+   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.carousel_ind{
+    top: 40px;
+}
+.carousel_ind [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+.glass{
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(3px);
+}
+.custom_slider{
+    color: white;
+    padding: 45px;
+    margin: 25px 0;
+    /* border-radius: 15px; */
+   
+}
+.custom_slider h1{
+    margin-bottom: 20px;
+    font-size: 2.188rem;
+}
+.custom_slider p{
+    text-align: justify;
+    margin-bottom: 25px;
+    font-size: 1rem;
+}
+
+.c_prev, .c_next{
+    top: 56%;
+}
+.c_prev_control{
+    left: 70%;
+    z-index: 2;
+}
+
+/* banner end */

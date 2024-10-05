@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="bt5-component">
+  <meta name="description" content="description">
+  <meta name="keywords" content="blog, ranjit">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="30 days">
+  <meta name="author" content="Ranjit Hawee">
+
+  <title>navbar/custom slider</title>
+  <!-- font links -->
+
+  <!-- css links -->
+   <link rel="stylesheet" href="../css/bootstrap.css">
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/media.css">
+</head>
+<body>
+
+  <!-- header start -->
+  <header>
+    <div class="container">
+      <!-- nav start -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Custom slider</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Components
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../pages/accordion.html">Accordion</a></li>
+                  <li><a class="dropdown-item" href="../pages/alert.html">Alert</a></li>
+                  <li><a class="dropdown-item" href="../pages/badge.html">Badge</a></li>
+                  <li><a class="dropdown-item" href="../pages/card.html">Card</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Messanger</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- nav end -->
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- custom banner start -->
+   <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <!-- slider start 2 -->
+          <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators carousel_ind">
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <!-- slider item start 1 -->
+              <div class="carousel-item active b_radius">
+                <div class="custom_slider glass">
+                  <h1>This is a custom slider-1</h1>
+                  <p>Elitr sadipscing tempor diam magna eirmod eirmod ea nonumy accusam amet. Ut no sadipscing kasd ipsum magna no stet est. Sadipscing rebum consetetur voluptua sed ut lorem sit et nonumy. Magna lorem no sed diam amet labore. Dolores vero invidunt sed est sed dolor rebum.</p>
+                  <button type="button" class="btn btn-info ">Click here</button>
+                </div>
+              </div>
+              <!-- slider item end 1 -->
+              <!-- slider item start 2 -->
+              <div class="carousel-item">
+                <div class="custom_slider glass">
+                  <h1>This is a custom slider-2</h1>
+                  <p>Rebum dolores et et rebum et diam magna at sea takimata. Et et diam takimata ipsum, sanctus at ea dolore justo sit kasd est diam. Stet dolore lorem et aliquyam gubergren invidunt sed ipsum, invidunt sea justo kasd kasd duo takimata sed eirmod clita. Tempor.</p>
+                  <button type="button" class="btn btn-info ">Click here</button>
+                </div>
+              </div>
+              <!-- slider item end 2 -->
+              <!-- slider item start 3 -->
+              <div class="carousel-item">
+                <div class="custom_slider glass">
+                  <h1>This is a custom slider-3</h1>
+                  <p>Ut et erat consetetur invidunt et duo labore takimata sit. Ut consetetur lorem accusam voluptua diam duo vero. Diam amet lorem eos accusam tempor sit. Diam takimata tempor dolore kasd, ut accusam eirmod takimata dolor diam labore consetetur. Aliquyam dolores dolor eos vero et et.</p>
+                  <button type="button" class="btn btn-info ">Click here</button>
+                </div>
+              </div>
+              <!-- slider item end 3 -->
+            </div>
+            <!-- button start -->
+            <button class="carousel-control-prev c_prev c_prev_control" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+
+            <button class="carousel-control-next c_next " type="button" data-bs-target="#carousel1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+            <!-- button end -->
+
+          </div>
+          <!-- slider end 2 -->
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- custom banner end -->
+ 
+
+ 
+
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>

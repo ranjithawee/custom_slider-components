@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="bt5-component">
+  <meta name="description" content="description">
+  <meta name="keywords" content="blog, ranjit">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="30 days">
+  <meta name="author" content="Ranjit Hawee">
+
+  <title>navbar/custom slider</title>
+  <!-- font links -->
+
+  <!-- css links -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+  <!-- header start -->
+  <header>
+    <div class="container">
+      <!-- nav start -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/c-slider.html">Custom slider</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Components
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pages/accordion.html">Accordion</a></li>
+                  <li><a class="dropdown-item" href="pages/alert.html">Alert</a></li>
+                  <li><a class="dropdown-item" href="pages/badge.html">Badge</a></li>
+                  <li><a class="dropdown-item" href="pages/card.html">Card</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Messanger</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- nav end -->
+    </div>
+  </header>
+  <!-- header end -->
+
+
+  <!-- slider start -->
+   <section id="slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- slider -->
+          <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators custom_ind">
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active custom_bg">
+                <img src="images/01.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block d-sm-block d-block">
+                  <h5 class="h_text">First slide label</h5>
+                  <p class="c_text">Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item custom_bg">
+                <img src="images/02.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block d-sm-block d-block">
+                  <h5 class="h_text">Second slide label</h5>
+                  <p class="c_text">Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item custom_bg">
+                <img src="images/03.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block d-sm-block d-block">
+                  <h5 class="h_text">Third slide label</h5>
+                  <p class="c_text">Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev custom_prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next custom_next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- slider -->
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- slider end -->
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
